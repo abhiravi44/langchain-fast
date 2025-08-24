@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langchain_sample"
+version = "0.1.0"
+dependencies = [
+    "duckduckgo-search>=8.1.1",
+    "fastapi>=0.116.1",
+    "langchain>=0.3.27",
+    "langchain-anthropic>=0.3.19",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.31",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.35.0",
+    "wikipedia>=1.4.0",
+]
